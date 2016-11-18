@@ -7,6 +7,7 @@ var Ticker = function() {
 		self.emit('tick');
 	}, 1000);
 };
+
 //util.inherits建立了一条原型链，使Ticker类实例能够使用EventEmitter类的原型方法
 util.inherits(Ticker, EventEmitter);
 
