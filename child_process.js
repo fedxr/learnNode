@@ -23,6 +23,7 @@ exec('cat *.js | wc -l', options, function(err, stdout, stderr) {
 /*
 *给子进程提供一组环境变量
 */
+
 var env = process.env,
 	varName,
 	envCopy = {};
